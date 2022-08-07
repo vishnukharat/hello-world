@@ -1,6 +1,6 @@
 # Pull base image 
-From centos:latest
+From fedora:latest
 
 # Maintainer 
 MAINTAINER "valaxytech@gmail.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY ./webapp.war /usr/local/fedora/webapps
